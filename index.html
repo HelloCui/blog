@@ -1,11 +1,21 @@
 ---
 layout: default
-title: 小崔的Blog
+title: 崔的博客
 ---
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-  {% for post in site.posts %}
-    <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+<div class="me-con">
+  <img src="http://7xkve6.com1.z0.glb.clouddn.com/avatar.png" alt="">
+  <p class="name">崔</p>
+  <p class="links">
+    <a href="https://twitter.com/treeecui" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://github.com/hellocui" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="http://weibo.com/u/3435018172" target="_blank"><i class="fa fa-weibo"></i></a>
+  </p>
+</div>
+<div class="posts-con">
+  <ul>
+    {% for post in site.posts %}
+      <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
