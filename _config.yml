@@ -1,2 +1,4 @@
-mardown: redcarpet
+markdown: redcarpet
 highlighter: pygments
+redcarpet:
+  extension: ["smart","strikethrough"]
