@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title || 'Tree'}}</title>
+  <link rel="stylesheet" href="http://7xjy8v.com1.z0.glb.clouddn.com/html5reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/github.css">
+  <link rel="stylesheet" href="/css/pygments.css">
+　</head>
+　<body>
+  <div class="container">
+    <div class="me-con">
+      <a href="/">
+        <img class="avatar" src="http://7xkve6.com1.z0.glb.clouddn.com/avatar.png" alt="">
+      </a>
+      <div class="me">
+        <a href="/">
+          <p class="name">崔</p>
+        </a>
+        <p class="links">
+          <a href="https://twitter.com/treeecui" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://github.com/hellocui" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="http://weibo.com/u/3435018172" target="_blank"><i class="fa fa-weibo"></i></a>
+        </p>
+      </div>
+    </div>
+    {{ content }}
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'cuiblog';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</body>
+</html>
